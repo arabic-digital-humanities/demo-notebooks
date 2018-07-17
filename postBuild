@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir data
+wget https://archive.org/download/aravec2.0/wiki_cbow_100.zip
+python -c "import zipfile; zipfile.ZipFile('wiki_cbow_100.zip','r').extractall('data')"
+rm wiki_cbow_100.zip
