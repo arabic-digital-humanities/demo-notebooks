@@ -3,6 +3,8 @@
 mkdir data
 wget https://surfdrive.surf.nl/files/index.php/s/AZLwqFhRE7WN9cB/download
 mv download cbow-fiqh-100-wikipedia-finetuned.zip
+wget https://surfdrive.surf.nl/files/index.php/s/7RvP2iYCOXkcWRp/download
+mv download fiqh-i10-s100-w5-sg0_wv
 wget https://archive.org/download/aravec2.0/wiki_cbow_100.zip
 python -c "import zipfile; zipfile.ZipFile('wiki_cbow_100.zip','r').extractall('data')"
 python -c "import zipfile; zipfile.ZipFile('cbow-fiqh-100-wikipedia-finetuned.zip','r').extractall('data')"
