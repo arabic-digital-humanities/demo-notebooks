@@ -5,3 +5,5 @@ dependencies:
   - appmode
   - pip:
     - gensim
+    - arabic-reshaper
+    - python-bidi
