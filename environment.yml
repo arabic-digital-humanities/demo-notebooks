@@ -4,7 +4,7 @@ channels:
 dependencies:
   - appmode
   - matplotlib
-  - sklearn
+  - scikit-learn
   - pip:
     - gensim
     - arabic-reshaper
