@@ -1,11 +1,11 @@
 channels:
   - conda-forge
   - nodefaults
-  - ioam
 dependencies:
   - appmode
   - matplotlib
   - scikit-learn
+  - pandas
   - holoviews
   - pip:
     - gensim
